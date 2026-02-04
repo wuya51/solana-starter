@@ -7,6 +7,8 @@ A quickstart demo showing how to upload blobs to Shelby Protocol using your Sola
 ![Solana](https://img.shields.io/badge/Solana-Devnet-purple?logo=solana)
 ![Shelby](https://img.shields.io/badge/Shelby-Protocol-cyan)
 
+![Demo](public/demo.gif)
+
 ## What is Shelby?
 
 Shelby is a **chain-agnostic decentralized file storage** protocol. Think of it as read-optimized blob storage that works across blockchains:
