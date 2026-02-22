@@ -130,4 +130,8 @@ Object.defineProperty(navigator, "clipboard", {
 Element.prototype.scrollIntoView = vi.fn();
 
 // Make sure userEvent can use the clipboard
-global.navigator.clipboard = mockClipboard as unknown as Clipboard;
+Object.defineProperty(global.navigator, 'clipboard', {
+  value: mockClipboard as unknown as Clipboard,
+  writable: true,
+  configurable: true
+});
